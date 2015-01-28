@@ -1,0 +1,11 @@
+.nav a {
+	color: Grey;
+	position: relative;
+	display: inline;
+	font-weight: bold;
+
+}
+
+.nav li {
+	display: inline;
+}

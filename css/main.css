@@ -1,11 +1,28 @@
+body {
+	font-family: arial;
+}
+
+.nav {
+  float: right;
+}
 .nav a {
 	color: Grey;
-	position: relative;
+	position: left;
+	width: 100px;
 	display: inline;
 	font-weight: bold;
-
+	padding: 20px;
+	
 }
 
 .nav li {
 	display: inline;
+}
+
+.header {
+	color: navy;
+	position: left;
+	font-weight: bold;
+	text-align: center;
+	clear:both;
 }

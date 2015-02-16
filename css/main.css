@@ -2,21 +2,32 @@ body {
 	font-family: arial;
 }
 
-.nav {
+.navbar {
   float: right;
+  margin-top: 10px;
+  
+  background-color: grey;
 }
-.nav a {
-	color: Grey;
+
+.navbar .container-fluid {
+	margin-right: 60px;
+}
+
+.nav navbar-nav navbar-right {
+	color: white;
 	position: left;
 	width: 100px;
 	display: inline;
 	font-weight: bold;
-	padding: 20px;
+	padding: 10px;
+	text-decoration: none;
+
 	
 }
 
 .nav li {
 	display: inline;
+	color: white;
 }
 
 .header {

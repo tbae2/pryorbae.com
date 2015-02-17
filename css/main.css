@@ -1,39 +1,42 @@
 body {
 	font-family: arial;
+	color: black;
 }
 
-.navbar {
-  float: right;
-  margin-top: 10px;
-  
-  background-color: grey;
-}
-
-.navbar .container-fluid {
-	margin-right: 60px;
-}
-
-.nav navbar-nav navbar-right {
+.navbar-default .navbar-nav > li > a {
 	color: white;
-	position: left;
-	width: 100px;
-	display: inline;
 	font-weight: bold;
-	padding: 10px;
-	text-decoration: none;
 
-	
+
 }
 
-.nav li {
-	display: inline;
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #B8DBFF;
+}
+
+.navbar-default {
+	background: #B0B0B0;
+}
+
+.jumbotron {
+	background-image: url('http://pryorbae.com/img/earlyShrimp.jpg');
+	height: 450px;
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 }
 
-.header {
-	color: navy;
-	position: left;
-	font-weight: bold;
-	text-align: center;
-	clear:both;
+.jumbotron h1 {
+	float: right;
+	width: 0 auto;
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	 
+}
+.jumbotron h2 {
+	float: right;
+	font-size: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-right: 10px;
 }

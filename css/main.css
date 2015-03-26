@@ -43,7 +43,7 @@ body {
 */
 
 .jumbotron {
-	background-image: url('http://pryorbae.com/img/earlyShrimp.jpg');
+	/* background-image: url('http://pryorbae.com/img/earlyShrimp.jpg'); */
 	height: 450px;
 	background-repeat: no-repeat;
 	background-size: cover;

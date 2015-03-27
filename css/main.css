@@ -16,12 +16,14 @@ body {
 	min-height: 30px;
 	background-color: transparent;
 	border: none;
+	font-weight: bold;
+
 }
 
 .navbar-default .navbar-nav > li > a{
 	padding-top: 5px;
 	padding-bottom: 5px;
-	color: black;
+	color: #E9E9E9;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -44,6 +46,7 @@ body {
 
 .jumbotron {
 	/* background-image: url('http://pryorbae.com/img/earlyShrimp.jpg'); */
+	opacity: 0;
 	height: 450px;
 	background-repeat: no-repeat;
 	background-size: cover;

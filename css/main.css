@@ -53,6 +53,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
+	padding-bottom: 20px;
 }
 
 .jumbotron h1 {
@@ -83,5 +84,21 @@ body {
 	padding-bottom: 20px;
 	padding-top: 20px;
 	*/
+}
+
+.blurbs {
+	padding-top: 50px;
+}
+.blurbs .col-lg-4 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.blurbicons {
+	border-radius: 25px;
+	height: 140px;
+	width: auto;
+	margin: auto;
+
 }
 

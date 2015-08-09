@@ -1,5 +1,5 @@
 body {
-	font-family: arial;
+	/*font-family: arial;*/
 	background-color:  #E0E0E0;
 }
 
@@ -87,11 +87,17 @@ body {
 }
 
 .blurbs {
-	padding-top: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-right: auto;
+	margin-left: auto;
+		
 }
 .blurbs .col-lg-4 {
 	text-align: center;
 	margin-bottom: 20px;
+	padding-bottom: 25px;
+
 }
 
 .blurbicons {
